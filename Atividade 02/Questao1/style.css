@@ -1,0 +1,91 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    background-color: white;
+}
+
+header {
+    background-color: rgb(82, 82, 82);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+main {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    background-color: rgb(82, 82, 82);
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+header > h2 {
+    display: flex;
+    justify-content: center;
+}
+
+header > nav > a {
+    background-color: black;
+    color: white;
+    display: inline;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 20vw;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+main > aside {
+    border: 10px solid rgb(82, 82, 82);
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    text-align: justify;
+}
+
+main > .artigos {
+    border: 10px solid rgb(82, 82, 82);
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+
+main > .artigos > article {
+    border: 10px solid rgb(82, 82, 82);
+    border-radius: 10px;
+    margin: 10px;
+    display: block;
+}
