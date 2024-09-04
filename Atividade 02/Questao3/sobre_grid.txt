@@ -1,0 +1,12 @@
+O CSS Grid e o Flexbox são ambos sistemas de layout poderosos no CSS, mas têm suas especialidades. O Grid é mais adequado quando você precisa de um layout bidimensional (linhas e colunas), enquanto o Flexbox é ótimo para layouts unidimensionais (uma linha ou uma coluna). O Grid é ideal para layouts que envolvem tanto linhas quanto colunas. Se você precisa alinhar elementos em ambos os eixos (horizontal e vertical) e controlar o espaço entre eles de forma precisa, o Grid é a melhor escolha. Quando você tem um layout com muitas seções ou subdivisões que precisam ser organizadas de maneira precisa, o Grid facilita a criação de áreas específicas sem a necessidade de muitos ajustes manuais. O Grid permite posicionar itens em locais exatos da grade (como "colocar o item no início da linha 2 e coluna 3"), o que dá muita flexibilidade para layouts mais detalhados.
+
+Exemplos de Layouts Onde CSS Grid é Melhor:
+
+. Layout de Página Completa (Cabeçalho, Rodapé, Conteúdo Principal, e Barras Laterais);
+. Galeria de Fotos;
+. Layout de Portfólio, etc.
+
+Quando Flexbox é Melhor:
+
+. Quando você só precisa alinhar itens em uma única direção (horizontal ou vertical);
+. Quando você deseja que os itens distribuam automaticamente o espaço ao longo de um único eixo.
